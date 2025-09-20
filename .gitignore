@@ -1,0 +1,16 @@
+# Virtual environment
+stock_env/
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (if you save any)
+*.csv
+data/
