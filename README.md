@@ -11,7 +11,7 @@ A professional desktop stock market analysis application with interactive charts
 - Scrollable high-resolution charts
 - Professional trading signals
 
-### Manual Installation
+### Manual Installation - In command prompt
 ```bash
 git clone https://github.com/spacem0nkey666/stock-analyzer.git
 cd stock-analyzer
