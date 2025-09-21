@@ -1,17 +1,34 @@
-# Stock Analyzer
+# Stock Analyzer Pro - TradingView Style
 
-A simple desktop application for analyzing stock market data using technical indicators.
+A professional desktop stock market analysis application with interactive charts and technical indicators.
 
 ## Features
-- Fetch real-time stock data
-- Display price charts
-- Calculate technical indicators (Moving Averages, RSI)
-- Generate buy/sell signals
+- TradingView-inspired dark theme interface
+- Real-time stock data from Yahoo Finance
+- Interactive crosshair tooltips with detailed data
+- Technical indicators: 20-day MA, 50-day MA, RSI
+- Smart buy/sell/hold recommendations
+- Scrollable high-resolution charts
+- Professional trading signals
 
-## Installation
+## Quick Install
+
+### Windows Users
+1. Download this repository (Code > Download ZIP)
+2. Extract to a folder
+3. Double-click `setup_windows.bat`
+4. Follow on-screen instructions to create desktop shortcut
+
+### Linux/Ubuntu Users
+1. Clone or download this repository
+2. Run: `./setup_linux.sh`
+3. App will appear in your applications menu
+
+### Manual Installation
 ```bash
 git clone https://github.com/spacem0nkey666/stock-analyzer.git
 cd stock-analyzer
 python3 -m venv stock_env
-source stock_env/bin/activate
+source stock_env/bin/activate  # Windows: stock_env\Scripts\activate
 pip install -r requirements.txt
+python3 stock_analyzer_gui.py

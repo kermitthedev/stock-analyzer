@@ -14,6 +14,11 @@ class StockAnalyzerGUI:
         self.root = root
         self.root.title("Stock Analyzer Pro - TradingView Style")
         self.root.geometry("1600x1000")
+# Try to set window icon
+try:
+    self.root.iconphoto(False, tk.PhotoImage(file='stock_analyzer_icon.png'))
+except:
+    pass  # Icon file not found, continue without icon
         
         # TradingView inspired color scheme
         self.colors = {
