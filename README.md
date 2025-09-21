@@ -10,7 +10,7 @@ A simple desktop application for analyzing stock market data using technical ind
 
 ## Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/stock-analyzer.git
+git clone https://github.com/spacem0nkey666/stock-analyzer.git
 cd stock-analyzer
 python3 -m venv stock_env
 source stock_env/bin/activate
