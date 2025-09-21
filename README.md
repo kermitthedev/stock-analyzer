@@ -11,7 +11,16 @@ A professional desktop stock market analysis application with interactive charts
 - Scrollable high-resolution charts
 - Professional trading signals
 
-## Quick Install
+### Manual Installation
+```bash
+git clone https://github.com/spacem0nkey666/stock-analyzer.git
+cd stock-analyzer
+python3 -m venv stock_env
+source stock_env/bin/activate  # Windows: stock_env\Scripts\activate
+pip install -r requirements.txt
+python3 stock_analyzer_gui.py
+
+## To create an icon shortcut for the app
 
 ### Windows Users
 1. Download this repository (Code > Download ZIP)
@@ -24,11 +33,3 @@ A professional desktop stock market analysis application with interactive charts
 2. Run: `./setup_linux.sh`
 3. App will appear in your applications menu
 
-### Manual Installation
-```bash
-git clone https://github.com/spacem0nkey666/stock-analyzer.git
-cd stock-analyzer
-python3 -m venv stock_env
-source stock_env/bin/activate  # Windows: stock_env\Scripts\activate
-pip install -r requirements.txt
-python3 stock_analyzer_gui.py
