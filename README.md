@@ -15,7 +15,7 @@ A professional desktop stock market analysis application with interactive charts
 Inatall python on your PC first and then install tkinter using the command - "pip install tk"
 Then check if you installed it correctly using python -c "import tkinter; tkinter._test()"
 If a small window pops up, Tkinter is working properly. 🎉
-After all of that is done, follow the steps below.
+After all of that is done, follow the steps down below.
 ```bash
 git clone https://github.com/spacem0nkey666/stock-analyzer.git
 cd stock-analyzer
