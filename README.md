@@ -12,7 +12,7 @@ A professional desktop stock market analysis application with interactive charts
 - Professional trading signals
 
 ### Manual Installation - In command prompt
-Inatall python on your PC first and then install tkinter using the command - pip install tk
+Inatall python on your PC first and then install tkinter using the command - "pip install tk"
 Then check if you installed it correctly using python -c "import tkinter; tkinter._test()"
 If a small window pops up, Tkinter is working properly. 🎉
 ```bash
