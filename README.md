@@ -1,4 +1,4 @@
-# Stock Analyzer Pro - TradingView Style
+# Stock Analyzer Premium
 
 A professional desktop stock market analysis application with interactive charts and technical indicators.
 
